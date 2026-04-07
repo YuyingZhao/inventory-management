@@ -4,6 +4,7 @@ export default {
     overview: 'Overview',
     inventory: 'Inventory',
     orders: 'Orders',
+    restocking: 'Restocking',
     finance: 'Finance',
     demandForecast: 'Demand Forecast',
     companyName: 'Catalyst Components',
@@ -198,12 +199,39 @@ export default {
     allMonths: 'All Months'
   },
 
+  // Restocking Planner
+  restocking: {
+    title: 'Restocking Planner',
+    description: 'Auto-recommend items to restock based on demand forecasts and your budget',
+    budgetConfig: 'Budget Configuration',
+    availableBudget: 'Available Budget',
+    totalCost: 'Total Recommended Cost',
+    remainingBudget: 'Remaining Budget',
+    itemsToRestock: 'Items to Restock',
+    recommendations: 'Restocking Recommendations',
+    placeOrder: 'Place Order',
+    orderPlaced: 'Order placed successfully!',
+    noItems: 'No items need restocking within this budget',
+    table: {
+      sku: 'SKU',
+      itemName: 'Item Name',
+      trend: 'Trend',
+      forecastedDemand: 'Forecasted Demand',
+      onHand: 'On Hand',
+      gap: 'Gap',
+      unitCost: 'Unit Cost',
+      lineCost: 'Line Cost',
+      include: 'Include'
+    }
+  },
+
   // Statuses
   status: {
     delivered: 'Delivered',
     shipped: 'Shipped',
     processing: 'Processing',
     backordered: 'Backordered',
+    submitted: 'Submitted',
     inStock: 'In Stock',
     lowStock: 'Low Stock',
     adequate: 'Adequate'
